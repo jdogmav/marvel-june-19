@@ -1,0 +1,220 @@
+body {
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Muli', sans-serif;
+}
+
+.nav-bar {
+    height: 70px;
+    width: 100%;
+    background-color: rgba(21, 77, 143, .5); /* gray-blue */
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.logo {
+    height: 72px;
+    width: 80px;
+}
+
+.nav-list {
+    float: right;
+}
+
+.list-item {
+    list-style-type: none;
+    height: 40px;
+    width: 60px;
+    background-color: #ebbf34;  /* goden yellow */
+    float: left;
+    margin-right: 36px;
+    border: solid 3px #b2000d;
+    border-radius: 8px;
+}
+
+.list-item:hover {
+    background-color: #b2000d; /* Red */
+}
+
+.list-item a {
+    text-decoration: none;
+    color: #154d8f;  /*gray-blue */
+    display: block;
+    margin-top: 10px;
+    margin-left: 6px;
+}
+
+.list-item a:hover {
+    color: #fff;
+}
+
+/********End on Nav************/
+
+/*.banner-img {*/
+/*    width: 100%;*/
+/*    position: absolute;*/
+/*    top: 70px;*/
+/*}*/
+.banner-img {
+    background-image: url(../img/marvel-legacy.jpg);
+    height: 1100px;
+    width: 100%;
+    background-size: cover;
+    
+}
+
+.banner-text {
+    background-color: blue;
+    height: 100px;
+    width: 200px;
+    color: red;
+    position: absolute;
+    top: 375px;
+    left: 42%;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    text-shadow: yellow -3px -2px; 
+    box-shadow: gray 8px 6px;
+    border-radius: 8px;
+}
+
+.banner h1 {
+    margin-top: 38px;
+}
+
+.main-section {
+    height: 500px;
+    width: 100%;
+    position: relative;
+    top: 1125px;
+}
+
+.col {
+    height: 450px;
+    width :47%;
+    border: 3px solid black;
+    float: left;
+    margin-left: 20px;
+}
+
+.main-text p {
+    margin: 40px;
+}
+
+.main-img {
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.footer {
+    height: 70px;
+    width: 100%;
+    position: relative;
+    /*top: 1595px;*/
+    background-color: rgba(21, 77, 143, .5); /* gray-blue */;
+}
+
+.input, .social, .copy {
+    float: left;
+    width: 30%;
+    text-align: center;
+    margin-top: 25px;
+    margin-left: 33px;
+}
+
+/*.copy {*/
+/*    float: left;*/
+/*    width: 30%; */
+/*}*/
+
+.input input, .input button, .social a {
+    display: inline-block;
+    /*margin-top: 25px;*/
+    margin-left: 20px;
+}
+
+.fa-facebook-square {
+    color: #3b5998;
+    font-size: 2em;
+}
+
+.fa-camera {
+    color: #8a3ab9;
+    font-size: 2em;
+}
+
+/*********End of Home Styles******/
+/*******About Styles********/
+.about-heading {
+    color: blue;
+    border-radius: 8px;
+    box-shadow: blue 3px 3px;
+    position: absolute;
+    top: 80px;
+    left: 41%;
+    background-color: red;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.about-container {
+    width: 100%;
+    height: 700px;
+    margin-top: 195px;
+}
+
+.about-col {
+    height: 650px;
+    width: 30%;
+    border: solid 3px blue;
+    float: left;
+    padding-top: 25px;
+    margin-left: 25px;
+}
+
+.about-col img, .about-col iframe {
+    height: 300px;
+    width: 300px;
+    display: block;
+    margin: auto;
+}
+
+.about-col audio {
+    display: block;
+    margin: auto;
+}
+
+.about-col p {
+    padding: 15px;
+}
+
+/******Contact Styles*****/
+
+.contact-header {
+    background-color: blue;
+    height: 100px;
+    width: 200px;
+    color: red;
+    margin: auto;
+    margin-top: 85px;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    text-shadow: yellow -3px -2px; 
+    box-shadow: gray 8px 6px;
+    border-radius: 8px;
+}
+
+.container {
+    height: 550px;
+    width: 100%;
+    margin-top: 25px;
+    margin-left: 6%
+}
+
+.contact-col {
+    float: left;
+}
